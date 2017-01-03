@@ -17,7 +17,7 @@ namespace WebPanel.Services
 
         public Dao Dao => ContextRegistry.GetContext().GetObject<Dao>("dao");
 
-        public ITaskService TaskService => ContextRegistry.GetContext().GetObject<ITaskService>("taskService");
+        public ITaskService TaskService => ContextRegistry.GetContext().GetObject<TaskService>("taskService");
 
         #endregion
     }

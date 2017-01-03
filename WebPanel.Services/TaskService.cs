@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using WebPanel.Model;
 
 namespace WebPanel.Services
 {
-    public class TaskService
+    public class TaskService:BaseService<Task>, ITaskService
     {
 
     }

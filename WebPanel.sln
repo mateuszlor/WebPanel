@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPanel", "WebPanel\WebPanel.csproj", "{B799E7D6-E76C-425D-9C2A-3EC43CE5CD5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPanel.WebApp", "WebPanel\WebPanel.WebApp.csproj", "{B799E7D6-E76C-425D-9C2A-3EC43CE5CD5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPanel.Services", "WebPanel.Services\WebPanel.Services.csproj", "{CF3FF9C6-279E-4012-9258-924E80FEB8E1}"
 EndProject
