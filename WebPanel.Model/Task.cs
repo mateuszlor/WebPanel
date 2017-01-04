@@ -9,6 +9,7 @@ namespace WebPanel.Model
     public class Task : BaseItem
     {
         public string Name { get; set; }
+        public string Repeats { get; set; }
         public bool IsCompleted { get; set; }
     }
 }

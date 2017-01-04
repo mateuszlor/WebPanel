@@ -9,7 +9,7 @@ namespace WebPanel.Services
     {
         #region Constructors
 
-        public Dao() : base("Webpanel")
+        public Dao() : base("AzureZIM")
         {
         }
 

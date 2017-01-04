@@ -5,7 +5,7 @@ using WebPanel.Model;
 
 namespace WebPanel.Controls
 {
-    public partial class TaskFormControl : UserControl
+    public partial class TaskListControl : UserControl
     {
         protected override void OnLoad(EventArgs e)
         {
@@ -31,7 +31,7 @@ namespace WebPanel.Controls
                 ErrorPanel.Visible = false;
 
                 Task.Text = task.Name;
-                Repeats.Text = task.Repeats;
+                Count.Text = "IDK";
                 Completed.Checked = task.IsCompleted;
             }
             else

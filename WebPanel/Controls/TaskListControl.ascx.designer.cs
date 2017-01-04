@@ -7,37 +7,54 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebPanel.Account {
+namespace WebPanel.Controls {
     
     
-    public partial class Confirm {
+    public partial class TaskListControl {
         
         /// <summary>
-        /// successPanel control.
+        /// TaskPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder successPanel;
+        protected global::System.Web.UI.WebControls.Panel TaskPanel;
         
         /// <summary>
-        /// login control.
+        /// Task control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink login;
+        protected global::System.Web.UI.WebControls.Literal Task;
         
         /// <summary>
-        /// errorPanel control.
+        /// Repeats control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder errorPanel;
-
+        protected global::System.Web.UI.WebControls.Literal Count;
+        
+        /// <summary>
+        /// Completed control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox Completed;
+        
+        /// <summary>
+        /// ErrorPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel ErrorPanel;
     }
 }

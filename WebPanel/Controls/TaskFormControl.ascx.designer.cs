@@ -31,13 +31,13 @@ namespace WebPanel.Controls {
         protected global::System.Web.UI.WebControls.Literal Task;
         
         /// <summary>
-        /// Count control.
+        /// Repeats control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Count;
+        protected global::System.Web.UI.WebControls.Literal Repeats;
         
         /// <summary>
         /// Completed control.
