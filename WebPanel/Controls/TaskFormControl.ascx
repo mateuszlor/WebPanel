@@ -32,14 +32,14 @@
                     <th>Zadanie:</th>
                     <td>
                         <asp:TextBox runat="server" ID="NewName" CausesValidation="True" ValidationGroup="Validation" />
-                        <asp:RequiredFieldValidator runat="server" ValidationGroup="Validation" ErrorMessage="Pole jest wymagane" ControlToValidate="NewName" CssClass="alert-warning" />
+                        <asp:RequiredFieldValidator runat="server" ValidationGroup="Validation" ErrorMessage="Pole jest wymagane" ControlToValidate="NewName" CssClass="alert-error" />
                     </td>
                 </tr>
                 <tr>
                     <th>Ilość: </th>
                     <td>
                         <asp:TextBox runat="server" ID="NewRepeats" CausesValidation="True" ValidationGroup="Validation" />
-                        <asp:RequiredFieldValidator runat="server" ValidationGroup="Validation" ErrorMessage="Pole jest wymagane" ControlToValidate="NewRepeats" CssClass="alert-warning" />
+                        <asp:RequiredFieldValidator runat="server" ValidationGroup="Validation" ErrorMessage="Pole jest wymagane" ControlToValidate="NewRepeats" CssClass="alert-error" />
                     </td>
                 </tr>
             </tbody>
