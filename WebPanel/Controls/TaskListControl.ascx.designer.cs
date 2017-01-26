@@ -22,31 +22,22 @@ namespace WebPanel.Controls {
         protected global::System.Web.UI.WebControls.Panel TaskPanel;
         
         /// <summary>
-        /// Task control.
+        /// DataGrid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Task;
+        protected global::System.Web.UI.WebControls.DataGrid DataGrid;
         
         /// <summary>
-        /// Repeats control.
+        /// RemoveAllButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Count;
-        
-        /// <summary>
-        /// Completed control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Completed;
+        protected global::System.Web.UI.WebControls.Button RemoveAllButton;
         
         /// <summary>
         /// ErrorPanel control.
@@ -56,5 +47,14 @@ namespace WebPanel.Controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel ErrorPanel;
+        
+        /// <summary>
+        /// AddButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button AddButton;
     }
 }

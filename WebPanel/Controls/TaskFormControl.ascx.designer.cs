@@ -13,13 +13,13 @@ namespace WebPanel.Controls {
     public partial class TaskFormControl {
         
         /// <summary>
-        /// TaskPanel control.
+        /// TaskPanelPreview control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel TaskPanel;
+        protected global::System.Web.UI.WebControls.Panel TaskPanelPreview;
         
         /// <summary>
         /// Task control.
@@ -47,6 +47,42 @@ namespace WebPanel.Controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox Completed;
+        
+        /// <summary>
+        /// TaskPanelNew control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel TaskPanelNew;
+        
+        /// <summary>
+        /// NewName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox NewName;
+        
+        /// <summary>
+        /// NewRepeats control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox NewRepeats;
+        
+        /// <summary>
+        /// AddButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button AddButton;
         
         /// <summary>
         /// ErrorPanel control.

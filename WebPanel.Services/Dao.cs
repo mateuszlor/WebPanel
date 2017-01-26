@@ -20,5 +20,11 @@ namespace WebPanel.Services
         public DbSet<Task> Tasks { get; }
 
         #endregion
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<Dao>());
+        }
     }
 }

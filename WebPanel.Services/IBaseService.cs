@@ -8,5 +8,7 @@ namespace WebPanel.Services
         T GetItemById(long id);
         IList<T> GetAllItems();
         void CreateNew(T item);
+        void UpdateItem(T item);
+        void DeleteAllItems();
     }
 }
