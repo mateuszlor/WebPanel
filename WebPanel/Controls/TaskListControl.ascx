@@ -2,7 +2,7 @@
 
 <div class="container">
     <asp:Panel runat="server" ID="TaskPanel">
-        <asp:DataGrid runat="server" ID="DataGrid" AutoGenerateColumns="False" OnItemCommand="DataGrid_OnItemCommand" BorderStyle="None" BorderWidth="0" BorderColor="white">
+        <asp:DataGrid runat="server" ID="DataGrid" AutoGenerateColumns="False" OnItemCommand="DataGrid_OnItemCommand" BorderStyle="None" BorderWidth="0" BorderColor="white" CssClass="table">
             <Columns>
                 <asp:BoundColumn HeaderText="Zadanie" DataField="Name" />
                 <asp:BoundColumn HeaderText="Ilość" DataField="Repeats" />
