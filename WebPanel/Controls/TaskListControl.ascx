@@ -1,8 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="TaskListControl.ascx.cs" Inherits="WebPanel.Controls.TaskListControl" %>
 
-<div class="container">
+<div class="container" style="max-width: 99%">
     <asp:Panel runat="server" ID="TaskPanel">
-        <div style="max-width: 99%">
+        <div style="max-width: 98%">
             <asp:DataGrid runat="server" ID="DataGrid" AutoGenerateColumns="False" OnItemCommand="DataGrid_OnItemCommand" BorderStyle="None" BorderWidth="0" BorderColor="white" CssClass="table">
                 <Columns>
                     <asp:BoundColumn HeaderText="Zadanie" DataField="Name" />
