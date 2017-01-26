@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NewTask.aspx.cs" Inherits="WebPanel.NewTask" %>
+﻿<%@ Page Title="Nowe ćwiczenie" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NewTask.aspx.cs" Inherits="WebPanel.NewTask" %>
 
 <%@ Register TagPrefix="uc" TagName="TaskFormControl" Src="~/Controls/TaskFormControl.ascx" %>
 
